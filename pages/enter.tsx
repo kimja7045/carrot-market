@@ -39,19 +39,19 @@ export default function Enter() {
             </button>
           </div>
         </div>
-        <form>
-          <label>
+        <form className='flex flex-col mt-8'>
+          <label className='text-sm font-medium text-gray-700'>
             {method === 'email' ? 'Email address' : null}
             {method === 'phone' ? 'Phone number' : null}
           </label>
-          <div>
-            {method === 'email' ? <input type='email' required /> : null}
-            {method === 'phone' ? (
+          <div className='mt-1'>
+            {method === 'email' && <input type='email' required />}
+            {method === 'phone' && (
               <div>
                 <span>+82</span>
                 <input type='number' required />
               </div>
-            ) : null}
+            )}
           </div>
           <button>
             {method === 'email' ? 'Get login link' : null}
