@@ -134,6 +134,9 @@ const Home: NextPage = () => {
       <p className='first-letter:text-7xl first-letter:hover:text-teal-400'>
         Hellow everybody
       </p>
+      <h2 className="text-[150px] text-[tomato] bg-[url('/vercel.svg')]">
+        Hello
+      </h2>
     </div>
   );
 };
