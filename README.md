@@ -10,6 +10,13 @@ npm install -D tailwindcss postcss autoprefixer
 
 npx tailwindcss init -p
 
+## Tailwind css
+
+- 유틸리티 (=많은 클래스네임을 가지고 있는 큰 파일) 우선 CSS 프레임워크
+
+- just-in-time compiler
+  -
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
